@@ -12,6 +12,7 @@ a{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 .logo{
     flex: 1 1 30rem;
@@ -89,4 +90,22 @@ a{
     font-size:1.5rem;
     border-radius:0.5rem;
     cursor: pointer;
+}
+
+
+@media(max-width:600px){
+    
+    .Search_Input>input{
+        width: 10rem;
+    }
+    .pic{
+        width: 20rem;
+        margin: auto;
+    }
+    .container{
+        width: 100%;
+        
+        margin: 1rem auto;
+        padding:0;
+    }
 }
