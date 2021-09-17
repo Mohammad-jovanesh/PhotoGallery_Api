@@ -93,10 +93,10 @@ a{
 }
 
 
-@media screen and(max-width:600px){
-    body{
-        background:red;
-    }
+@media screen and (max-width:600px){
+   body {
+       background:red;
+   }
     .Search_Input>input{
         width: 10rem;
     }
@@ -107,6 +107,6 @@ a{
     .container{
         width: 100%;
         margin: 1rem auto;
-        padding:0;
+        padding:0 !important;
     }
 }
