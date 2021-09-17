@@ -95,7 +95,7 @@ a{
 
 @media screen and (max-width:600px){
    body {
-       background:red;
+       background:#E4DBD4;
    }
     .Search_Input>input{
         width: 10rem;
