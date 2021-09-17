@@ -93,7 +93,7 @@ a{
 }
 
 
-@media(max-width:600px){
+@media screen and(max-width:600px){
     
     .Search_Input>input{
         width: 10rem;
